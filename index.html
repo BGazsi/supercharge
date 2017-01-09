@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <meta property="description" content="Simple memory hame made in JavaScirpt">
+
+    <meta property="og:title" content="Memory game">
+    <meta property="og:description" content="Simple memory game made in JavaScript">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Memory game">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+</head>
+<body>
+<header class="header">
+    <label for="deck-select">Number of cards: </label>
+    <select name="deck-select" id="deck-select">
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+        <option value="20">20</option>
+    </select>
+    <button class="restart-btn">Restart</button>
+    <strong>Highscore: </strong><span class="high-score">No highscore yet!</span>
+    <strong>Actual score: </strong><span class="counter">0</span>
+</header>
+<main>
+    <div class="main-container">
+
+    </div>
+</main>
+
+<script src="dist/vendor/jquery-1.12.4.min.js"></script>
+<script src="dist/js/script.js"></script>
+</body>
+</html>
